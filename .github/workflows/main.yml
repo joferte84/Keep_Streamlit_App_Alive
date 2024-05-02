@@ -1,0 +1,15 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+    # Programa para ejecutar el workflow cada semana (por ejemplo, cada domingo a las 3:00 AM)
+    - cron: '0 3 * * 0'
+
+jobs:
+  wake-up:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wake up Streamlit App
+        uses: wei/curl@v1
+        with:
+          args: curl https://clasificador-nubes.streamlit.app/
