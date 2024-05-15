@@ -13,5 +13,5 @@ Para utilizar este script en tu propia aplicación de Streamlit, sigue estos pas
 1. **Fork o clona este repositorio**: Puedes hacer un 'fork' de este repositorio o clonarlo directamente a tu cuenta de GitHub.
 2. **Modifica el archivo `main.yml`**: Actualiza la URL en el archivo `main.yml` para apuntar a tu aplicación de Streamlit.
 3. **Configura los GitHub Actions en tu repositorio**: Asegúrate de que GitHub Actions esté habilitado en tu repositorio.
-4. **Verifica las ejecuciones**: Ve a la pestaña 'Actions' de tu repositorio para verificar que el workflow se ejecute según lo programado.
+4. **Verifica las ejecuciones**: Ve a la pestaña 'Actions' de tu repositorio para verificar que el workflow se ejecute según lo programado. 
 
